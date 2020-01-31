@@ -1,0 +1,194 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	list-style: none;
+	color: black;
+}
+html{
+	
+	background-image: url("imag/bg.jpg");
+	background-horizontal-position: center;
+	background-attachment: fixed;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px rgba(200,200,200,0.5), -1px -1px rgba(200,200,200,0.5), -1px 1px rgba(200,200,200,0.5), 1px -1px rgba(200,200,200,0.5), 1px -1px rgba(200,200,200,0.5), 1px 0px rgba(200,200,200,0.5), 0px 1px rgba(200,200,200,0.5), -1px 0px rgba(200,200,200,0.5), 0px -1px rgba(200,200,200,0.5);
+	
+}
+h2{
+	text-align: center;
+	letter-spacing: 1px;
+}
+	
+h1{
+	text-shadow: 1px 1px rgba(200,200,200,0.5), -1px -1px rgba(200,200,200,0.5), -1px 1px rgba(200,200,200,0.5), 1px -1px rgba(200,200,200,0.5), 1px -1px rgba(200,200,200,0.5), 1px 0px rgba(200,200,200,0.5), 0px 1px rgba(200,200,200,0.5), -1px 0px rgba(200,200,200,0.5), 0px -1px rgba(200,200,200,0.5);
+}
+.center{
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+}
+a{
+	text-decoration: none;
+	color: rgba(0,100,140,1);
+	text-shadow: 5px 0px rgba(0,0,0,1), 0px 5px rgba(0,0,0,1), 0px -2px rgba(0,0,0,1), -1px 0px rgba(0,0,0,1), 2px 0px rgba(0,0,0,1), 0px 1px rgba(0,0,0,1);
+}
+a:hover{
+	color: rgba(0,100,140,1);
+	text-shadow: 1px 1px rgba(0,0,0,0.5), -1px -1px rgba(0,0,0,0.5), -1px 1px rgba(0,0,0,0.5), 1px -1px rgba(0,0,0,0.5), 1px -1px rgba(0,0,0,0.5), 1px 0px rgba(0,0,0,0.5), 0px 1px rgba(0,0,0,0.5), -1px 0px rgba(0,0,0,0.5), 0px -1px rgba(0,0,0,0.5);
+}
+a:active{
+	text-decoration: none;
+	color: rgba(50,200,250,1);
+	text-shadow: 1px 1px rgba(0,0,0,0.5), -1px -1px rgba(0,0,0,0.5), -1px 1px rgba(0,0,0,0.5), 1px -1px rgba(0,0,0,0.5), 1px -1px rgba(0,0,0,0.5), 1px 0px rgba(0,0,0,0.5), 0px 1px rgba(0,0,0,0.5), -1px 0px rgba(0,0,0,0.5), 0px -1px rgba(0,0,0,0.5);
+}
+.vista{
+	margin: auto;
+	width: 70%;
+}
+th, .violeta{
+	color: rgba(0,132,193,1);
+	text-shadow: 1px 1px rgba(0,0,0,0.5), -1px -1px rgba(0,0,0,0.5), -1px 1px rgba(0,0,0,0.5), 1px -1px rgba(0,0,0,0.5), 1px -1px rgba(0,0,0,0.5), 1px 0px rgba(0,0,0,0.5), 0px 1px rgba(0,0,0,0.5), -1px 0px rgba(0,0,0,0.5), 0px -1px rgba(0,0,0,0.5);
+}
+.lateral{
+	border-right: 3px solid rgba(0,0,0,0);
+	border-color: black;
+	width: 30%;
+	text-align: left;
+	vertical-align: top;
+	background-color: rgba(0,0,0,0.5);
+}
+.contenido{	
+	vertical-align: top;
+	text-align: center;
+	margin: auto;
+	width: 75%;
+	background-color: rgba(0,0,0,0.5);
+}
+.tablas table{
+	margin:auto;
+
+}
+.tablas table th{
+	text-align:left;
+}
+.tablas .pure-table-horizontal td{
+	border-right: 25px solid rgba(0,0,0,0);
+	text-align: left;
+}
+.tablas .pure-table-horizontal th{
+	border-right: 25px solid rgba(0,0,0,0);
+	text-align: left;
+}
+hr{
+	border-color: black;
+}
+
+/* BOTONES */
+input[value="EDITAR"]{
+	font-size: 0px;
+	padding: 15px;
+	background-image: url("imag/botones/bteditar-idle.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+input[value="EDITAR"]:hover {
+	background-image: url("imag/botones/bteditar-mouse.png");
+	background-position: center;
+}
+input[value="ELIMINAR"]{
+	font-size: 0px;
+	padding: 15px;
+	background-image: url("imag/botones/bteliminar-idle.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+input[value="ELIMINAR"]:hover {
+	background-image: url("imag/botones/bteliminar-mouse.png");
+	background-position: center;
+}
+button[type="submit"]{
+	font-size: 0px;
+	padding: 15px;
+	background-image: url("imag/botones/btguardar-idle.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+button[type="submit"]:hover {
+	background-image: url("imag/botones/btGuardar-mouse.png");
+	background-position: center;
+}
+button[disabled]{
+	font-size: 0px;
+	padding: 15px;
+	background-image: url("imag/botones/btguardar-idle.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+button[disabled]:hover {
+	background-image: url("imag/botones/btguardar-disabled.png");
+	background-position: center;
+}
+button[value="Ingresar"]{
+	font-size: 0px;
+	padding: 15px;
+	background-image: url("imag/botones/btInicioSesion-idle.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+button[value="Ingresar"]:hover {
+	background-image: url("imag/botones/btInicioSesion-mouse.png");
+	background-position: center;
+}
+.btnWpp img{
+	background-image: url("imag/contacto/btnWpp-idle.png");
+	background-size: 28px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.btnWpp:hover img{
+	background-image: url("imag/contacto/btnWpp-hover.png");
+	background-size: 28px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.btnFace img{
+	background-image: url("imag/contacto/btnFace-idle.png");
+	background-size: 28px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.btnFace:hover img{
+	background-image: url("imag/contacto/btnFace-hover.png");
+	background-size: 28px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.btnInsta img{
+	background-image: url("imag/contacto/btnInst-idle.png");
+	background-size: 28px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.btnInsta:hover img{
+	background-image: url("imag/contacto/btnInst-hover.png");
+	background-size: 28px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
