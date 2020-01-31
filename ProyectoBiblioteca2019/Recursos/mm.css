@@ -1,0 +1,10 @@
+a[value="logo"]{
+	font-size: 0px;
+	padding: 250px;
+	background-image: url("imag/logo_idle.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+a[value="logo"]:hover {
+	background-image: url("imag/logo_anim.gif");
+}

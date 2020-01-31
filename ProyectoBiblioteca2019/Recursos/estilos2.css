@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-family: sans-serif;
+	list-style: none;
+	color: black;
+}
+html{
+	background-image: url("imag/bg.jpg");
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+h1{
+	text-align: center;
+	text-shadow: 1px 1px #fff, -1px -1px #fff, -1px 1px #fff, 1px -1px #fff, 1px -1px #fff, 1px 0px #fff, 0px 1px #fff, -1px 0px #fff, 0px -1px #fff;
+}
+#contenedor{
+	width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+li{
+	color: white;
+}
+
+#/*pie{
+	border: solid 1px #434343;
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+	width: 899px;
+	text-shadow: 1px 1px #fff, -1px -1px #fff, -1px 1px #fff, 1px -1px #fff, 1px -1px #fff, 1px 0px #fff, 0px 1px #fff, -1px 0px #fff, 0px -1px #fff;
+	background-color: rgba(0,0,0,0.8);
+}*/
+.titulo{
+	text-align: center;
+}
+#lateral a{
+	color: white;
+}
+.table{
+	margin: auto;
+}
+pre{
+	font-size: 20px ;
+}
+.corr-pre{
+	padding: 0px 75px;
+	margin-top: 0px;
+	margin-bottom: -5px;
+	text-align: center;
+}
+/*.btn_editar*/
+input[value="EDITAR"]{
+	font-size: 0px;
+	padding: 14px;
+	background-image: url("imag/btn_editar.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+input[value="EDITAR"]:hover {
+	background-image: url("imag/btn_editarHover.png");
+}
+input[value="ELIMINAR"]{
+	font-size: 0px;
+	padding: 14px;
+	background-image: url("imag/btn_eliminar.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+input[value="ELIMINAR"]:hover {
+	background-image: url("imag/btn_eliminarHover.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contenido{
+	width: 80%;
+    background-color: #ffffff;   
+	text-align: center;
+	text-shadow: 1px 1px #fff, -1px -1px #fff, -1px 1px #fff, 1px -1px #fff, 1px -1px #fff, 1px 0px #fff, 0px 1px #fff, -1px 0px #fff, 0px -1px #fff;
+	background-color: rgba(50,50,50,0.8);
+}
+
+.lat_izq{
+	height: 200px;
+	background-color: rgba(0,0,0,0.86);
+	color: #000;
+	border-left: solid 1px #000;
+	border-top: solid 1px #000;
+	border-radius: 10px 0 0 0;
+}
+.lat_der{
+	height: 50px; 
+	background-color: rgba(0,0,0,0.86);
+	color: #000;
+	border-left: solid 1px #000;
+	border-top: solid 1px #000;
+	border-radius: 10px 0 0 0;
+}
+
+
+
